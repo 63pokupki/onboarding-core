@@ -1,5 +1,5 @@
 {
-  "name": "onboarding-core",
+  "name": "@63pokupki/onboarding-core",
   "version": "1.0.0",
   "description": "Основа для системы подсказок",
   "main": "index.js",
