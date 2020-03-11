@@ -1,0 +1,23 @@
+{
+  "name": "onboarding-core",
+  "version": "1.0.0",
+  "description": "Основа для системы подсказок",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "minify": "^3.0.5"
+  },
+  "scripts": {
+    "minify": "for file in ./index*; do NAME=$(basename $file) && minify $file > ./minified/${NAME%.*}.min.${NAME#*.}; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/63pokupki/onboarding-core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/63pokupki/onboarding-core/issues"
+  },
+  "homepage": "https://github.com/63pokupki/onboarding-core#readme"
+}
