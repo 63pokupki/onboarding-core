@@ -137,6 +137,12 @@
    * @returns {Boolean} Success or not?
    */
   function _introForElement(targetElm, group) {
+
+    var bodyEl = document.querySelector("body");
+    if (bodyEl) {
+      bodyEl.classList.add("disable-overflow-x");
+    }
+
     var allIntroSteps = targetElm.querySelectorAll("*[data-intro]"),
         introItems = [];
 
@@ -598,6 +604,11 @@
 
     //set the step to zero
     this._currentStep = undefined;
+
+    var bodyEl = document.querySelector("body");
+    if (bodyEl) {
+      bodyEl.classList.remove("disable-overflow-x");
+    }
   }
 
   /**

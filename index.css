@@ -375,3 +375,7 @@ tr.introjs-showElement > th {
   z-index: 1;
   opacity: 0;
 }
+
+.disable-overflow-x {
+  overflow-x: hidden !important;
+}
