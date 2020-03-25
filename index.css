@@ -2,7 +2,7 @@
   position: absolute;
   box-sizing: content-box;
   z-index: 999999;
-  background: rgba(0,0,0,.9);
+  background: rgba(0,0,0,.25);
 }
 
 .introjs-fixParent {
