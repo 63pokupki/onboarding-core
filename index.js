@@ -302,6 +302,7 @@
       }
       //for window resize
       DOMEvent.on(window, 'resize', _onResize, this, true);
+      DOMEvent.on(window, 'orientationchange', _onResize, this, true);
     }
     return false;
   }
