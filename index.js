@@ -1787,20 +1787,14 @@
    * @returns {Object} width and height attributes
    */
   function _getWinSize() {
-    // try {
-    //   var D = document.documentElement;
-    //   return { width: D.clientWidth, height: D.clientHeight };
-    // }catch(e) {
-    //   return { width: window.innerWidth, height: window.innerHeight };
-    // }
-
-    if (window.innerWidth !== undefined) {
+    try {
+      var D = document.documentElement;
+      if (D) {
+        return { width: D.clientWidth, height: D.clientHeight };
+      }
+    }catch(e) {
       return { width: window.innerWidth, height: window.innerHeight };
-    } else {
-      const D = document.documentElement;
-      return { width: D.clientWidth, height: D.clientHeight };
     }
-
   }
 
   /**
