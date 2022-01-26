@@ -108,7 +108,7 @@
       media: [
         {
           active: true,
-          point: 768,
+          point: 319,
           positions: {
             "top-middle-aligned": "top-middle-aligned",
             "top-right-aligned": "top-right-aligned",
