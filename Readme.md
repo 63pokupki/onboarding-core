@@ -915,8 +915,8 @@ export namespace OnboardingNoAuthR {
 ~~~
 ///
 
-///
-Интерфейсы
+
+4. Интерфейсы
 - src/ifc/core/EntitySQL/P63OnboardingPageE.ts
 ~~~
 
@@ -943,6 +943,7 @@ export interface P63OnboardingPageI {
 
 ~~~
 ///
+
 Интерфейсы шагов
 - src/ifc/core/EntitySQL/P63OnboardingStepE.ts
 ~~~
@@ -971,6 +972,7 @@ export interface P63OnboardingStepI {
 ~~~
 
 ///
+
 Интерфейсы токена
 - src/ifc/core/EntitySQL/P63OnboardingTokenE.ts
 ~~~
@@ -1015,6 +1017,7 @@ export interface P63OnboardingTplI {
 }
 ~~~
 ///
+
 Инициализация
 
 - Необходимо подключить библиотеку @63pokupki/onboarding-core
